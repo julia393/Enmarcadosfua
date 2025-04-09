@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Enmarcados por Julia</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    main {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      margin-bottom: 1rem;
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #444;
+      color: #fff;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .contacto-directo {
+      margin-top: 2rem;
+    }
+    .contacto-directo p {
+      margin: 0.3rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Enmarcados por Julia</h1>
+    <p>Enmarcados personalizados para obras y recuerdos</p>
+  </header>
+
+  <main>
+    <h2>Contacto</h2>
+    <p>Dejame tu mensaje y me pondré en contacto a la brevedad:</p>
+
+    <form action="#" method="post">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu email" required>
+      <textarea name="mensaje" rows="5" placeholder="Escribí tu mensaje..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="contacto-directo">
+      <h3>También podés contactarme por:</h3>
+      <p>Email: julia@example.com</p>
+      <p>WhatsApp: +54 9 11 1234-5678</p>
+      <p>Instagram: <a href="https://www.instagram.com/tuusuario" target="_blank">@tuusuario</a></p>
+    </div>
+  </main>
+</body>
+</html>
